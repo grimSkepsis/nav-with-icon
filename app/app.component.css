@@ -16,15 +16,15 @@
 
 /* simplify in app to
 .nav-with-icon-wrapper {
-  position: relative;
-  transform: none;
-  top: 0;
-  left: 0;
+  display: flex;
+  align-items: center;
   .text {
       position: relative;
   }
-  .nav-with-icon-wrapper {
-    display: flex;
-    align-items: center;
+  clr-icon  {
+    position: relative;
+    transform: none;
+    top: 0;
+    left: 0;
   }
 } */
