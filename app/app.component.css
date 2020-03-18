@@ -13,3 +13,18 @@
 .nav-with-icon-wrapper .text {
   position: relative;
 }
+
+/* simplify in app to
+.nav-with-icon-wrapper {
+  position: relative;
+  transform: none;
+  top: 0;
+  left: 0;
+  .text {
+      position: relative;
+  }
+  .nav-with-icon-wrapper {
+    display: flex;
+    align-items: center;
+  }
+} */
