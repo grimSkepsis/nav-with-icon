@@ -1,0 +1,13 @@
+.nav-with-icon-wrapper clr-icon {
+  position: relative;
+  transform: none;
+}
+
+.nav-with-icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.nav-with-icon-wrapper .text {
+  position: relative;
+}
