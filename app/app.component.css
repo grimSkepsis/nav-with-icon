@@ -34,7 +34,18 @@
   position: relative;
 }
 
-.nav-with-icon-wrapper--superscript, clr-icon {
+.nav-with-icon-wrapper--superscript clr-icon {
   left: inherit;
-  right: 0;
+  top: 0.2rem;
+  right: -0.5rem;
 }
+
+/* simplify in app to
+.nav-with-icon-wrapper--superscript {
+  position: relative;
+  clr-icon  {
+    left: inherit;
+    top: 0.2rem;
+    right: -0.5rem;
+  }
+} */
