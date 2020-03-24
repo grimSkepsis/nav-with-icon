@@ -28,3 +28,13 @@
     left: 0;
   }
 } */
+
+
+.nav-with-icon-wrapper--superscript {
+  position: relative;
+}
+
+.nav-with-icon-wrapper--superscript, clr-icon {
+  left: inherit;
+  right: 0;
+}
